@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json({ type: 'json' }))
 
-mongoose.connect("mongodb://instauser:insta1234@ds227035.mlab.com:27035/datagroup", { useNewUrlParser: true },
+mongoose.connect("mongodb://instauser:insta1234@ds227035.mlab.com:27035/datagroup", { useNewUrlParser: true, useUnifiedTopology: true }, 
 function(err){
   if(err){
     console.log('errrr',err);
@@ -51,7 +51,7 @@ app.get('/', function (req, res) {
 
 
 
-const port = process.env.PORT || 4600
+const port = process.env.PORT || 4800
 
 app.listen(port, function () {
   console.log(`CORS-enabled web server listening on port ${port}`)

@@ -1,12 +1,28 @@
-<h1>
+<form #f="ngForm" (submit)="logForm(f.value)">
+    <div class="all container">
+        <div class="instagram row">
+            <div [hidden]="true" class="logo">
+                <img src="https://www.sirendesign.com.au/wp-content/themes/siren/library/images/instagram-logo.png"
+                    alt="" />
+            </div>
+            <div class="inputlar">
+                <div class="col-sm">
+                    <input type="text" placeholder="username" name="username" ngModel />
+                </div>
+                <div class="col-sm">
+                    <input type="password" placeholder="password" name="userpass" ngModel />
+                </div>
 
-    <form #f="ngForm" (submit)="logForm(f.value)">
-            USERNAME : 
-            <input type="text" name="username" ngModel> <br />
-            Password : 
-            <input type="password" name="userpass" ngModel> <br />
-            <button type="submit" >sentData</button>
-        
-    </form>
-    
-</h1>
+            </div>
+            <div class="buttons">
+                <button type="submit">Log In</button>
+            </div>
+
+            <div class="oryantal"></div>
+            <div class="kayit">
+                Don't have an account? <a href="#"> Sign up</a>
+            </div>
+        </div>
+    </div>
+
+</form>
