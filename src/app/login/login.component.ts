@@ -10,15 +10,15 @@ export class LoginComponent implements OnInit {
 
 
   constructor(private http: HttpClient) { }
-
+  user = {};
   ngOnInit(): void {
   }
 
-  logForm(e){
-     console.log('dd',e);
+  logForm(){
+     console.log('dd',this.user);
 
 
-    this.http.post('http://localhost:4800/dataSend', e).subscribe(res=>{
+    this.http.post('/dataSend', this.user).subscribe(res=>{
       console.log('hh',res)
     },
     err => console.log('err',err))

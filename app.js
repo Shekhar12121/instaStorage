@@ -28,7 +28,7 @@ let InstaModel = mongoose.model('InstaModel', instaSchema);
 
 
 
-//app.use(express.static(path.join(__dirname, 'dist/insta')));
+app.use(express.static(path.join(__dirname, 'dist/insta')));
 
 app.post('/dataSend', function (req, res) {
   console.log(req.body);

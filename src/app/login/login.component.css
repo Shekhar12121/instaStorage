@@ -6,6 +6,9 @@ body{
   *{
     font-family: "proxima-nova",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   }
+  .low-opac{
+    opacity: 0.5;
+  }
   .instagram{
     background:#ffffff;
     border: 1px solid #e6e6e6;
@@ -27,13 +30,14 @@ body{
     margin:auto;
   }
   .inputlar input{
+    font-size: 12px !important;
     width: 250px;
-    padding:10px;
+    padding: 7px;
     border: 1px solid #dbdbdb;
     border-radius: 3px;
-    margin-top:7px;
-    outline:0;
-    color:#262626;
+    outline: 0;
+    color: #262626;
+    background: #b5b1b13d;
   }
   .inputlar input:focus{
     border:1px solid #aaa;
@@ -67,7 +71,7 @@ body{
   }
   
   .oryantal{
-    width:270px;
+    width:80%;
     margin:auto;
     border-bottom:1px solid #c7c7c7;
     margin-bottom:15px;
