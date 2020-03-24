@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "insta": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "insta"
+    }
+  },
+  "defaultProject": "insta",
+  "cli": {
+    "analytics": "0f14e741-13dd-4644-9969-fc029e802d0c"
+  }
 }

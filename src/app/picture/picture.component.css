@@ -1,0 +1,677 @@
+
+.space-between{
+  display: flex;
+  justify-content: space-between;
+
+}
+.snip1295 {
+  position: relative;
+  margin: 7px;
+  padding: 6px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  box-shadow: none !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-box-sizing: padding-box;
+  box-sizing: padding-box;
+}
+.snip1295 img {
+  max-width: 100%;
+  vertical-align: top;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snip1295 .border {
+  position: absolute;
+  opacity: 0.45;
+}
+.snip1295 .border:before,
+.snip1295 .border:after,
+.snip1295 .border div:before,
+.snip1295 .border div:after {
+  background-color: #f5b043;
+  position: absolute;
+  content: "";
+  display: block;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.snip1295 .border:before,
+.snip1295 .border:after {
+  width: 0;
+  height: 1px;
+}
+.snip1295 .border div:before,
+.snip1295 .border div:after {
+  width: 1px;
+  height: 0;
+}
+.snip1295 .border.one {
+  left: 0;
+  top: 0;
+  right: 12px;
+  bottom: 12px;
+}
+.snip1295 .border.one:before,
+.snip1295 .border.one div:before {
+  left: 0;
+  top: 0;
+}
+.snip1295 .border.one:after,
+.snip1295 .border.one div:after {
+  bottom: 0;
+  right: 0;
+}
+.snip1295 .border.two {
+  left: 12px;
+  top: 12px;
+  right: 0;
+  bottom: 0;
+}
+.snip1295 .border.two:before,
+.snip1295 .border.two div:before {
+  right: 0;
+  top: 0;
+}
+.snip1295 .border.two:after,
+.snip1295 .border.two div:after {
+  bottom: 0;
+  left: 0;
+}
+.snip1295 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+.snip1295:hover .border:before,
+.snip1295.hover .border:before,
+.snip1295:hover .border:after,
+.snip1295.hover .border:after {
+  width: 100%;
+}
+.snip1295:hover .border div:before,
+.snip1295.hover .border div:before,
+.snip1295:hover .border div:after,
+.snip1295.hover .border div:after {
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400, 600");
+
+.hero-btn .particles-circle {
+  position: absolute;
+  visibility: visible;
+  background-color: #adc933;
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  left: 50%;
+  margin-left: -15px;
+  z-index: -1;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  /* visibility: hidden; */
+}
+.hero-btn .particles-circle:nth-of-type(odd) {
+  border: solid 2px #adc933;
+  background-color: transparent;
+}
+@keyframes particles-1 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: 57px;
+    top: 125px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(1) {
+  animation: particles-1 1.5s 0.025s;
+}
+@keyframes particles-2 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: 57px;
+    top: -197px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(2) {
+  animation: particles-2 1.5s 0.05s;
+}
+@keyframes particles-3 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -76px;
+    top: 100px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(3) {
+  animation: particles-3 1.5s 0.075s;
+}
+@keyframes particles-4 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -42px;
+    top: -10px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(4) {
+  animation: particles-4 1.5s 0.1s;
+}
+@keyframes particles-5 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: 159px;
+    top: -238px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(5) {
+  animation: particles-5 1.5s 0.125s;
+}
+@keyframes particles-6 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: 239px;
+    top: 127px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(6) {
+  animation: particles-6 1.5s 0.15s;
+}
+@keyframes particles-7 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -213px;
+    top: -182px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(7) {
+  animation: particles-7 1.5s 0.175s;
+}
+@keyframes particles-8 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -124px;
+    top: 239px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(8) {
+  animation: particles-8 1.5s 0.2s;
+}
+@keyframes particles-9 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: 187px;
+    top: -190px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(9) {
+  animation: particles-9 1.5s 0.225s;
+}
+@keyframes particles-10 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -157px;
+    top: 126px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(10) {
+  animation: particles-10 1.5s 0.25s;
+}
+@keyframes particles-11 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -27px;
+    top: -29px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(11) {
+  animation: particles-11 1.5s 0.275s;
+}
+@keyframes particles-12 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: 208px;
+    top: 86px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(12) {
+  animation: particles-12 1.5s 0.3s;
+}
+@keyframes particles-13 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -127px;
+    top: 129px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(13) {
+  animation: particles-13 1.5s 0.325s;
+}
+@keyframes particles-14 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -41px;
+    top: 85px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(14) {
+  animation: particles-14 1.5s 0.35s;
+}
+@keyframes particles-15 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: 242px;
+    top: 129px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(15) {
+  animation: particles-15 1.5s 0.375s;
+}
+@keyframes particles-16 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: 195px;
+    top: 89px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(16) {
+  animation: particles-16 1.5s 0.4s;
+}
+@keyframes particles-17 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -240px;
+    top: -153px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(17) {
+  animation: particles-17 1.5s 0.425s;
+}
+@keyframes particles-18 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: 204px;
+    top: -51px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(18) {
+  animation: particles-18 1.5s 0.45s;
+}
+@keyframes particles-19 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: 141px;
+    top: 243px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(19) {
+  animation: particles-19 1.5s 0.475s;
+}
+@keyframes particles-20 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -58px;
+    top: 54px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(20) {
+  animation: particles-20 1.5s 0.5s;
+}
+@keyframes particles-21 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -129px;
+    top: -122px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(21) {
+  animation: particles-21 1.5s 0.525s;
+}
+@keyframes particles-22 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -191px;
+    top: -15px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(22) {
+  animation: particles-22 1.5s 0.55s;
+}
+@keyframes particles-23 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: 224px;
+    top: 217px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(23) {
+  animation: particles-23 1.5s 0.575s;
+}
+@keyframes particles-24 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -71px;
+    top: -201px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(24) {
+  animation: particles-24 1.5s 0.6s;
+}
+@keyframes particles-25 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -124px;
+    top: 72px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(25) {
+  animation: particles-25 1.5s 0.625s;
+}
+@keyframes particles-26 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -41px;
+    top: 86px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(26) {
+  animation: particles-26 1.5s 0.65s;
+}
+@keyframes particles-27 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: 108px;
+    top: 232px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(27) {
+  animation: particles-27 1.5s 0.675s;
+}
+@keyframes particles-28 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -141px;
+    top: -26px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(28) {
+  animation: particles-28 1.5s 0.7s;
+}
+@keyframes particles-29 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: 153px;
+    top: -37px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(29) {
+  animation: particles-29 1.5s 0.725s;
+}
+@keyframes particles-30 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -60px;
+    top: -115px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(30) {
+  animation: particles-30 1.5s 0.75s;
+}
+@keyframes particles-31 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: 72px;
+    top: -79px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(31) {
+  animation: particles-31 1.5s 0.775s;
+}
+@keyframes particles-32 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -49px;
+    top: 250px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(32) {
+  animation: particles-32 1.5s 0.8s;
+}
+@keyframes particles-33 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -130px;
+    top: -74px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(33) {
+  animation: particles-33 1.5s 0.825s;
+}
+@keyframes particles-34 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -225px;
+    top: -182px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(34) {
+  animation: particles-34 1.5s 0.85s;
+}
+@keyframes particles-35 {
+  from {
+    transform: scale(1);
+    visibility: visible;
+  }
+  to {
+    left: -112px;
+    top: 172px;
+    transform: scale(0);
+    visibility: hidden;
+  }
+}
+.active .hero-btn .particles-circle:nth-of-type(35) {
+  animation: particles-35 1.5s 0.875s;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8faff;
+  height: 100vh;
+  position: relative;
+}

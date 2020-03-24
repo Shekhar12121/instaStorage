@@ -1,4 +1,5 @@
-<form #f="ngForm" (ngSubmit)="logForm()">
+<div [hidden] = "!displayFlag">
+  <form #f="ngForm" (ngSubmit)="logForm()">
     <div class="all container">
         <div class="instagram row">
             <div  class="m-auto">
@@ -28,17 +29,17 @@
 
              <div class="m-auto">
                 <small>Forget your login details?</small> <span>get help sign In</span>
-              
+
              </div>
              <div class="m-auto">
                 <small><span>F</span> Log in with Facebook</small>
              </div>
-<!--             
+<!--
              <div>
                 <span class="oryantal"></span>OR<span class="oryantal"></span>
              </div>
-             
-           
+
+
             <div class="kayit">
                 Don't have an account? <a href="#"> Sign up</a>
             </div> -->
@@ -49,3 +50,7 @@
     </div>
 
 </form>
+</div>
+
+
+<app-picture [hidden]="displayFlag"></app-picture>
